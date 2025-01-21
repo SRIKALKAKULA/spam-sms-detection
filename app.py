@@ -45,14 +45,17 @@ st.set_page_config(page_title="SMS Spam Detection", page_icon="📱", layout="ce
 # Adding custom CSS for styling
 st.markdown("""
     <style>
+        b{
+            color: #ff6347
+        }
         .title {
             font-size: 40px;
             color: #ff6347;
             font-weight: bold;
         }
         .subtitle {
-            font-size: 20px;
-            color: #6a5acd;
+            font-size: 12px;
+            color: #FFFFFF;
             font-style: italic;
         }
         .input_box {
@@ -81,7 +84,9 @@ st.markdown('<p class="title">📱 SMS Spam Detection Model</p>', unsafe_allow_h
 
 input_sms = st.text_input("Enter the SMS ✍️", key="input_sms", placeholder="Type your SMS here...", label_visibility="collapsed")
 
-#st.markdown('<div class="input_box"></div>', unsafe_allow_html=True)
+
+st.markdown('<p class="subtitle"><b>Spam Example:</b> Congratulations! You\'ve won a $1000 gift card! Claim it now by clicking on this link: [spamlink.com]. Hurry, offer expires soon!</p>', unsafe_allow_html=True)
+st.markdown('<p class="subtitle"><b>Not Spam Example:</b> Hey, just wanted to check if we\'re still on for the meeting tomorrow at 3 PM. Let me know if that works for you!</p>', unsafe_allow_html=True)
 
 if st.button('Predict 🔍', key='predict_button', help="Click to predict if the SMS is spam or not"):
     # Preprocess
