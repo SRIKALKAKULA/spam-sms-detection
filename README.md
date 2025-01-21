@@ -1,5 +1,4 @@
-# SMS Spam Detection By Srikal Kakula under the guidance of Edunet Foundation and the team 
-
+# SMS Spam Detection By Srikal Kakula under the guidance of Edunet Foundation.
 ## Overview
 SMS Spam Detection is a machine learning model that takes an SMS as input and predicts whether the message is a spam or not spam message. The model is built using Python and deployed on the web using Streamlit.
 
@@ -15,7 +14,7 @@ SMS Spam Detection is a machine learning model that takes an SMS as input and pr
 
 
 ## Demo Project
-[here](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+[here](https://spam-sms-detection-srikal.streamlit.app/)
 
 ## Usage
 To use the SMS Spam Detection model on your own machine, follow these steps:
