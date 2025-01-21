@@ -3,7 +3,7 @@
 SMS Spam Detection is a machine learning model that takes an SMS as input and predicts whether the message is a spam or not spam message. The model is built using Python and deployed on the web using Streamlit.
 
 
-![web App Image](web app image.jpg)
+![web App Image]([web app image.jpg](https://github.com/SRIKALKAKULA/spam-sms-detection/blob/780e7d019084f1f374f447076a23a9bca3357012/web%20app%20image.jpg))
 
 
 ## Technology Used
