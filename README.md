@@ -10,7 +10,7 @@ SMS Spam Detection is a machine learning model that takes an SMS as input and pr
 - NumPy
 - Streamlit
 
-###  dataset from 
+### Dataset 
 [here](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 
 
